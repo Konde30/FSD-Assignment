@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .div1{
+      width: 100px;
+      height: 10px;
+      border: 1px solid black;
+      margin: 0 auto;
+    }
+  </style>
+<body>
+<div class="div1">
+  <img id="myImage" onmouseover="onImg()" onmouseout="offImg()" src="img/off.png">
+
+
+</div><br>
+<div>
+  <h1>Move mouse over and out for on or off bulb.</h1>
+</div>
+
+
+
+
+
+<script>
+function onImg() {
+
+document.getElementById('myImage').src='img/onbulb.png';
+ 
+}
+function offImg() {
+
+document.getElementById('myImage').src='img/off.png';
+ 
+}
+
+</script>
+</body>
+</html>
