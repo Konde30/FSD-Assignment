@@ -1,0 +1,1002 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ETE Technosoft LLP website for all in one programming  </title>
+        <!-- for-mobile-apps -->
+        <!--<meta name="viewport" content="initial-scale=1, maximum-scale=1">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Resort Inn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+              Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+            function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- //for-mobile-apps -->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/font-awesome.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+        <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+        <link rel="stylesheet" href="css/jquery-ui.css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style_2.css" rel="stylesheet" type="text/css" media="all" />
+        <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="js/showhide.js"></script>
+        <!--fonts-->
+        <link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <!--//fonts-->
+        <style>
+            fieldset {
+                overflow: hidden;
+            }
+            .some-class {
+                float: left;
+                clear: none;
+            }
+            label {
+                float: left;
+                clear: none;
+                display: block;
+                padding: 2px 1em 0 0;
+            }
+            input[type=radio],
+            input.radio {
+                float: left;
+                clear: none;
+                margin: 2px 0 0 2px;
+            }
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+            .dropdown .dropbtn {
+                cursor: pointer;
+                font-size: 16px;    
+                border: none;
+                outline: none;
+                color: white;
+                padding: 10px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            ul li:hover ul{
+                display: block;
+            }
+            .dropdown_menu_item_open li ul
+            {
+                position: absolute;
+                margin-top: -1em;
+                margin-left: 5em;
+                display: none;
+            }
+            .dropdown_menu_item_open ul li ul
+
+            {
+                margin-top: -3em;
+                margin-left: 7em;
+            }
+            #snackbar {
+                visibility: hidden;
+                min-width: 250px;
+                height: 60px;
+                margin-left: -125px;
+                background-color: #ffce14;
+                color: #000;
+                text-align: center;
+                border-radius: 2px;
+                padding: 16px;
+                position: fixed;
+                z-index: 1;
+                left: 70%;
+                top: 120px;
+                font-size: 17px;
+            }
+            #snackbar.show {
+                visibility: visible;
+                -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+                animation: fadein 60s, fadeout  60s 0.5s;
+            }
+            @-webkit-keyframes fadein {
+                from {bottom: 0; opacity: 0;} 
+                to {top:50px; opacity: 1;
+                }
+            }
+
+            @keyframes fadein {
+                from {bottom: 0; opacity: 0;}
+                to {top:50px; opacity: 1;
+                }
+            }
+            @-webkit-keyframes fadeout {
+                from {bottom: 0px; opacity: 1;} 
+                to {bottom: 0; opacity: 0;}
+            }
+
+            @keyframes fadeout {
+                from {bottom: 0px; opacity: 1;}
+                to {bottom: 0; opacity: 0;}
+            }
+            #main{
+                position:relative;
+                margin-top:15px
+            }
+            img#logo{
+                margin-top:50px
+            }
+            #first{
+                width:400px;
+                margin-top:0;
+                padding:28px 25px;
+                background-color:#fff;
+                border:1px solid #000;
+                border-radius:5;
+                position:absolute;
+                left:50%;
+                margin-left:-180px;
+                top:0;
+                height:350px;
+            }
+            #second{
+                width:400px;
+                margin-top:0;
+                padding:28px 25px;
+                background-color:#fff;
+                display:none;
+                border:1px solid #000;
+                border-radius:5;
+                position:absolute;
+                left:50%;
+                margin-left:-180px;
+                top:0
+            }
+            h3{
+                margin-top:0
+            }
+            input[type=text],[type=password]{
+                padding:7px;
+                width:100%;
+                height:40px;
+                margin-top:15px;
+                font-size:18px
+            }
+            input[type=submit]{
+                background:linear-gradient(to bottom,#22abe9 5%,#36caf0 100%);
+                box-shadow:inset 0 1px 0 0 #7bdcf4;
+                border:1px solid #0F799E;
+                color:#fff;
+                width:350px;
+                height:40px;
+                margin-top:15px;
+                font-size:18px;
+                font-weight:700;
+                cursor:pointer;
+                text-shadow:0 1px 0 #13506D
+            }
+            input[type=submit]:hover{
+                background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
+            }
+            a{
+                text-decoration:none;
+                color:#6495ed
+            }
+            p#two{
+                margin-bottom:0
+            }
+            .footer{
+                isplay: block;
+                overflow: auto;
+                width:100%;
+                height:100%;
+                font-size: 20px;
+                background-color:#0f2453;;padding: 2px;
+            }
+            .a:hover,#contact_form:hover{
+
+                -ms-transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                transform: scale(1.1);
+            }
+            #content{
+                color:white;
+                padding: 2px;
+                font-family: garamond;
+            }
+            .services{
+                width:50%;
+                display: block;
+                position: relative;
+            }
+            .services .content{
+                position: relative;
+                bottom: 0;
+                background: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.6);
+                color: white;
+                width: 100%;
+            }
+            .logo_w3l_agile_caption{
+                padding-left: 75px;
+            }
+            .rss {
+                background: #f26522;
+            }
+            @media (max-width: 414px){
+                .w3ls-info-about {
+                    top: 111.5%;
+                    padding: 1em 1em;
+                }
+            }
+            .copy p {
+                color: #fff;
+                font-size: 13px;
+                letter-spacing: 2px;
+                padding: 1em;
+            }
+            @media (max-width: 480px){
+                .price-gd-top h4 {
+                    top: 12.9em;
+                    font-size: 1.1em;
+                    width: 206px;
+                    height: 54px;
+                    text-align: center;
+                }
+            }
+            @media (max-width: 767px){
+                .price-gd-bottom {
+                    padding: 1.3em 0em 1em;
+                    padding-top: 8px;
+                }
+            }
+            @media (max-width: 480px){
+                .price-gd-top h4 {
+                    top: 12.8em;
+                    font-size: 1.1em;
+                    margin-right: 20px;
+                }
+            }
+            @media (max-width: 414px){
+                .w3ls-info-about {
+                    top: 102.5%;
+                    padding: 1em 1em;
+                }
+            }
+            @media (max-width: 600px){
+                .book-form-left-w3layouts h2 {
+                    padding: 30px;
+                    padding-top: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 30px;
+                    padding-left: 30px;
+                    font-size: 12px;
+                }
+            }
+            @media (max-width: 375px){
+                .about-wthree {
+                    padding: 2.2em 0 12em 0px;
+                    padding-top: 2.2em;
+                    padding-right: 0px;
+                    padding-bottom: 10em;
+                    padding-left: 0px;
+                }
+            }
+            @media (max-width: 414px){
+
+                .about-wthree {
+                    padding: 2.6em 0 10em 0px;
+                }}
+            @media (max-width:511px){
+                .col-md-9{
+                    padding-top: 0px;
+                }
+            }
+            .img_logo{
+                width: 224px;
+               height: 257px;
+            }
+            .agileits-banner-info h4 {
+                font-size: 4em;
+                color: #dab31b;
+                letter-spacing: 3px;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: 'Oswald', sans-serif;
+            }
+            @media (max-width: 480px){
+                .agileits-banner-info h4{
+                    font-size: 1em;
+                    letter-spacing: 10px;
+                }
+                .img_logo{
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+            .modal-content img {
+                width: 40%;
+                padding-left:10px;
+            }
+            .agileits_w3layouts_more a {    
+                margin-top: 5em;
+            }
+            .agileits-banner-info p {
+                color: #ffffff;}
+
+        </style>
+    </head>
+    <body>       
+        <div class="banner-top">
+            <div class="social-bnr-agileits">
+                <ul class="social-icons3">
+                    <li><a href="https://www.facebook.com/pooja.konde.311" class="fa fa-facebook icon-border facebook"> </a></li>
+                    <li><a href="https://twitter.com/konde_pooja?s=09" class="fa fa-twitter icon-border twitter"> </a></li>
+                    <li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+                    <li><a href="https://www.linkedin.com/in/pooja-konde-798949189" class="fa fa-linkedin  icon-border rss "> </a></li>
+                </ul>
+            </div>
+            <div class="contact-bnr-w3-agile">
+                <ul>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:poojakonde30@gmail.com">poojakonde30@gmail.com</a></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>+91 9975730983</li>	
+                </ul>
+            </div>
+            <div class="clearfix" style="background: #dab31b"></div>
+        </div>
+        <div class="w3_navigation">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header navbar-left">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1><a style="margin-left: -127px;" class="navbar-brand">Pooja Popat Konde<p class="logo_w3l_agile_caption"></p></a></h1>
+                    </div>                   
+                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                        <nav class="menu menu--iris">
+                            <ul class="nav navbar-nav menu__list">
+                                <li style="padding-right: 20px;" class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a>
+                                </li>
+                                <li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
+                                <li class="menu__item"><a href="#services" class="menu__link scroll">Education</a></li>
+                                <li class="menu__item"><a href="#projects" class="menu__link scroll">Projects</a></li>
+                                <li class="menu__item"><a href="#SkillsCall" class="menu__link scroll">Skills</a></li>
+                                <li class="menu__item"><a href="#GalleryDiv" class="menu__link scroll">Gallery</a></li>
+                              
+                                <li class="menu__link "><a  href="#MoreInfo"   class="menu__link scroll">Hobbies</a></li>
+                                <li style="padding-right:0px;" class="menu__item"><a href="#ContactDiv" class="menu__link scroll">Contact </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+        <div id="snackbar">Under Construction</div>
+        <div id="home" class="w3ls-banner">          
+            <div class="slider">
+                <div class="callbacks_container">
+                    <ul class="rslides callbacks callbacks1" id="slider4">
+                       
+                        <li>
+                            <div class="w3layouts-banner-top w3layouts-banner-top1" style="background: url(images/website-parallax-background-C.jpg) no-repeat 0px 0px;">
+                                <div class="container">
+                                    <div class="agileits-banner-info">
+                                        <h4>Welcome To My Profile</h4>
+                                        <h3 style="color:royalblue">Pooja Popat Konde </h3>
+                                        <p> <b>Full Stack Developer</b></p>                                     
+                                        
+                                    </div>	
+                                </div>
+                            </div>
+                        </li> 
+                       
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>  
+                <div class="section_mask"> </div>  
+            </div>
+            <div class="thim-click-to-bottom">
+                <a href="#about" class="scroll">
+                    <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    
+  
+    <br>       
+    <br><br>
+    <section>
+        <div class="about-wthree" id="about">
+            <div class="container" style="height: auto;">
+                <div class="ab-w3l-spa"><br><br>
+                    <center> <img src="images/pooja2.jpg" class="img_logo" alt=" ">
+                        <h3 class="title-w3-agileits title-black-wthree" style="padding-left:100px;"><br></h3></center> <br>
+                    <p class="about-para-w3ls"><span style="font-family: FrankRuehl; font-size: 22px;color:#0f2453;">
+                        <b><span style="float: left;">Hello,</span><br>
+                            I am pooja. i am a Full Stack Developer and Current working in Ness Technologies. 
+                       Passionate about developing and implementing new functionalities, Code, compile, run Unit Tests & fix defects. Collaborate with other team members to create quicker issue resolution to achieve high customer satisfaction Having hands-on experience of OOP principles.
+                       Strong programming skills, problem-solving ability, and understanding of coding aesthetics.
+                       Get actively involved in Training, self-development & knowledge sharing, Participation in user’s functional requirement studies. 
+                        Engage in requirements elaboration and clarification with business analysis. </b>
+                    </span></p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </section>
+    <div class="banner-bottom" id="services">
+        <div class="container">	
+           
+            <div class="w3ls_banner_bottom_grids">
+                <h1>Education Details</h1>
+                <ul class="cbp-ig-grid" >
+                    <li>
+                        <div class="w3_grid_effect">
+                            <img src="images/be.jpg" width="50" height="50"/>
+                            <div style="height:200px;">
+                                <h4 class="cbp-ig-title">BE<br>Computer <br>Engineering</h4>
+                                <span class="cbp-ig-category">Bachelor of Engineering in computer with 7.63CGPA 2020 passout
+                                     from Navshyadri Education Society gruop of institute naigaon pune.</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li >
+                        <div class="w3_grid_effect"  style="position: relative;overflow: hidden;">
+                            <img src="images/be.jpg"  width="50" height="50"/>
+                            <div style="height:200px;">
+                                <h5 class="cbp-ig-title">Diploma</h5>
+                                <span class="cbp-ig-category">
+                                    completed Diploma in computer with 77% in 2017 from Navshyadri Education Society gruop of institute naigaon pune.</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li >
+                        <div class="w3_grid_effect" >
+                            <img src="images/10th.jpg"  width="50" height="50"/>
+                            <div style="height:200px;">
+                                <h5 class="cbp-ig-title">10th </h5>
+                                <span class="cbp-ig-category">completed 10th with 80% in 2014 From Shree Samarth madhyamic vidhyalay kelawade</span>
+
+                            </div>
+                        </div>
+                    </li>
+                   
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+    <center> <h3 class="title-w3-agileits title-black-wthree" style="padding-left: 95px;" >PROJECTSS</h3></center> <br>
+    <section id="projects">
+        <div class="container">
+            <div class="col-lg-4">
+       <div style="text-align: center;font-family: sans-serif;padding:12px;">
+                    <h3><span style="color: #ff4f81;font-size:15px;">Rate analysis & cost estimation for building and construction industry</span></h3>
+                    <p><span style="color: darkblue; font-family: calibri;font-size:15px;"> 
+                        dedicated client portal to track trips and billing of travel agencies. Customer profile & credit days setting. Individual group & consolidated invoices.
+                        </span> </p><br>
+         </div>
+            </div> 
+            <div class="col-lg-4">
+                    <div style="text-align: center;font-family: sans-serif;padding:12px;">
+                    <h3><span style="color: #ff4f81;font-size:15px;">Secure File Handling System For Cloud Computing  With Load Balancing:</span></h3>
+                    <p><span style="color: darkblue; font-family: calibri;font-size:15px;"> 
+                        The main objective behind project is to provide the security and prevent unauthorized access to the data store on cloud and balancing load of cloud drive.
+	
+                        </span>
+                    </p><br>
+      </div>
+            </div> 
+            <div class="col-lg-4">
+       <div style="text-align: center;font-family: sans-serif;padding:12px;">
+                    <h3><span style="color: #ff4f81;font-size:15px;">Hash Pro Android application</span></h3>
+                    <p><span style="color: darkblue; font-family: calibri;font-size:15px;"> 
+                            Exclusive android application designed for working professionals from IT background students.
+                        </span>
+                    </p><br>
+                        </div>
+            </div> 
+        </div><br><br>
+        <div class="container">
+            <div class="col-lg-4">
+    <div style="text-align: center;font-family: sans-serif;padding:12px;">
+                    <h3><span style="color: #ff4f81;font-size:15px;">	
+                        USB Detection and Monitoring System:</span></h3>
+                    <p><span style="color: darkblue; font-family: calibri;font-size:15px;"> 
+                        The main objective behind this  how to detect or catch the image of person who missed behave with our system or machine. Understanding the which data is copy your pc or laptop.
+                        </span> 
+                    </p><br>
+                        </div>
+            </div> 
+            <div class="col-lg-4">
+                
+                <div style="text-align: center;font-family: sans-serif;padding:12px;">
+                    <h3><span style="color: #ff4f81;font-size:15px;">ETE PROJECTS PVT LTD  WEBSITE</span></h3>
+                    <p><span style="color: darkblue; font-family: calibri;font-size:15px;"> 
+                            The main objective behind the website is provide  all information about the company.
+                        </span> 
+                    </p><br>
+                         </div>
+            </div> 
+            <div class="col-lg-4">
+                
+                <div style="text-align: center;font-family: sans-serif;padding:12px;">
+                    <h3><span style="color: #ff4f81;font-size:15px;"> ETE TECHNOSOFT  LLP WEBSITE </span></h3>
+                    <p><span style="color: darkblue; font-family: calibri;font-size:15px;"> 
+                        The main objective behind the website is provide  all information about the company.
+                        </span> 
+                    </p><br>
+         </div>
+            </div> 
+        </div>
+    </section><br><br>
+   
+    <section id="SkillsCall">
+    <div class="plans-section" id="courses"  >
+        <div class="container" >
+            <h3 class="title-w3-agileits title-black-wthree"  style="padding-left:100px;">Skills</h3> <br>
+            <div class="priceing-table-main">
+                <div class="col-md-3 price-grid">
+                    <div class="price-block agile">
+                        <div class="price-gd-top">
+                            <img src="images/c.jpg" alt=" " class="img-responsive"/>
+                            <a href="online_courses_details.html" > <h4  style="padding-left: 2px; padding-top: 20px">C &nbsp;Programming</h4> </a>
+                            <div class="price-gd-bottom">
+                                <div class="price-selet" >
+                                    <a href="online_courses_details.html"  ></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 price-grid ">
+                    <div class="price-block agile">
+                        <div class="price-gd-top">
+                            <img src="images/cpp.png" alt=" " class="img-responsive" />
+                            <a href="online_courses_details.html" > <h4 style="padding-left: 2px; padding-top:20px">C++ &nbsp;Programming<br></h4> </a>
+                        </div>
+                        <div class="price-gd-bottom">
+                            <div class="price-selet" >
+                                <a href="online_courses_details.html"  ></a></div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 price-grid ">
+                    <div class="price-block agile">
+                        <div class="price-gd-top">
+                            <img src="images/core_java.jpg" alt=" " class="img-responsive" />
+                            <a href="online_courses_details.html">  <h4 style="padding-left: 2px; padding-top:20px" > &nbsp; Core &nbsp;Java &nbsp;&nbsp;</h4></a>
+                        </div>
+                        <div class="price-gd-bottom">
+                            <div class="price-selet">
+                                <a href="online_courses_details.html"  ></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 price-grid ">
+                    <div class="price-block agile">
+                        <div class="price-gd-top">
+                            <img src="images/adv_java.jpg" alt=" " class="img-responsive" />
+                            <a href="online_courses_details.html" >  <h4 style="padding-left: 2px; padding-top:20px" >Advanced Java</h4> </a>
+                        </div>
+                        <div class="price-gd-bottom">
+                            <div class="price-selet">
+                                <a href="online_courses_details.html"  ></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 price-grid ">
+                    <div class="price-block agile">
+                        <div class="price-gd-top">
+                            <img src="images/mydql.png"  alt=" " class="img-responsive"/>
+                            <a href="online_courses_details.html" > <h4 style="padding-left: 20px; padding-top:20px"  >&nbsp;&nbsp;DBMysql&nbsp;<br><br></h4>	</a>
+                        </div>
+                        <div class="price-gd-bottom">
+                            <div class="price-selet">
+                                <a href="online_courses_details.html"  ></a>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 price-grid ">
+                    <div class="price-block agile">
+                        <div class="price-gd-top">
+                            <img src="images/ds.png"  alt=" " class="img-responsive" />
+                            <a href="online_courses_details.html" > <h4 style="padding-left: 2px; padding-top:20px" >Data Structure</h4> </a>	
+                        </div>
+                        <div class="price-gd-bottom">
+                            <div class="price-selet">
+                                <a href="online_courses_details.html"  ></a>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    </section><br><br>
+
+    <div class="w3l-visitors-agile" id="GalleryDiv">
+        <div class="container">
+            <h3 class="title-w3-agileits title-black-wthree" style="padding-left:80px;"> My Gallery</h3> <br>
+        </div>
+        <div class="w3layouts_work_grids">
+            <section class="slider">
+                <div class="flexslider">
+                    <ul class="slides">
+                         <li>
+                            <div class="w3layouts_work_grid_left">
+                                <img src="images/5.jpg" alt=" " class="img-responsive" />
+                                <div class="w3layouts_work_grid_left_pos">
+                                    <img src="images/pooja3.jpg" alt=" " class="img-responsive" />
+                                </div>
+                            </div>
+                            <div class="w3layouts_work_grid_right">
+                                <h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    Pooja Konde
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </h4>
+                                <p style=" padding-left: 20px">You and Yourself, as much as anybody in the entire universe,deserve your love and affection</p>
+                                <h5></h5>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </li>
+                        <li>
+                            <div class="w3layouts_work_grid_left">
+                                <img src="images/5.jpg" alt=" " class="img-responsive" />
+                                <div class="w3layouts_work_grid_left_pos">
+                                    <img src="images/pooja4.jpg" alt=" " class="img-responsive" />
+                                </div>
+                            </div>
+                            <div class="w3layouts_work_grid_right">
+                               
+                            </div>
+                            <div class="clearfix"> </div>
+                        </li>
+                        <li>
+                            <div class="w3layouts_work_grid_left">
+                                <img src="images/5.jpg" alt=" " class="img-responsive" />
+                                <div class="w3layouts_work_grid_left_pos">
+                                    <img src="images/pooja2.jpg" alt=" " class="img-responsive" />
+                                </div>
+                            </div>
+                            <div class="w3layouts_work_grid_right">
+                                <h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    Pooja Konde
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </h4>
+                                <p style=" padding-left: 20px">If You're not using your smile,you're like a man with a million dollars in the bank and no checkbook :-)</p>
+                                <h5></h5>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </li>
+                        <li>
+                            <div class="w3layouts_work_grid_left">
+                                <img src="images/5.jpg" alt=" " class="img-responsive" />
+                                <div class="w3layouts_work_grid_left_pos">
+                                    <img src="images/pooja.jpg" alt=" " class="img-responsive" />
+                                </div>
+                            </div>
+                            <div class="w3layouts_work_grid_right">
+                               
+                            </div>
+                            <div class="clearfix"> </div>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </section>
+        </div>	
+    </div>
+    <section style="background-color: #ddd;box-shadow: 0 10px 10px #ddd inset;">
+        <div class="banner_bottom_agile_info" style="padding-bottom: 1em;" id="ContactDiv">
+            <div class="container">
+                <div class="container">
+                    <h3 class="title-w3-agileits title-black-wthree" style="padding-left: 90px;">Contact </h3> <br>
+                </div>
+                <div class="contact-grid-agile-w3s" >
+                    <div class="col-md-4 contact-grid-agile-w3">
+                        <div class="contact-grid-agile-w31" id="contact_form">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h4>Address</h4>
+                            <p>Unnamed Road,<br> Kelawade, Maharashtra 412205, Pune-Bangalore Highway,Kelawade, Pune-412213, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 contact-grid-agile-w3">
+                        <div class="contact-grid-agile-w32" id="contact_form">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <h4>Call Me</h4>
+                            <p>+91-9975730983<span>+91-9975410597 </span><br><br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 contact-grid-agile-w3">
+                        <div class="contact-grid-agile-w33" id="contact_form">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <h4>Email</h4>
+                            <p><a href="mailto:rupesh@etetechnosoft.com">poojakonde30@gmail.com</a><span><a href="mailto:contact@etetechnosoft.com"><br><br></a></span><br></p>
+                        </div>
+                    </div>
+                    <div class="clearfix" > </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner_bottom_agile_info">
+            <div class="container">
+                <div class="agile-contact-grids">
+                    <div class="agile-contact-left">
+                        <div class="col-md-6 address-grid">
+                            <h4>For More <span>Information</span></h4>
+                            <div class="mail-agileits-w3layouts" id="contact_form" style="width:fit-content;">
+                                <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                <div class="contact-right">
+                                    <p>Telephone </p><span>+9975730983<br>+9975410597</span>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="mail-agileits-w3layouts" id="contact_form"  style="width:fit-content;">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <div class="contact-right">
+                                    <p>Mail </p><a href="mailto:poojakonde30@gmail.com">poojakonde30@gmail.com</a><br>
+                                    
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="mail-agileits-w3layouts" id="contact_form"  style="width:fit-content; ">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <div class="contact-right">
+                                    <p>Location</p><span>Unnamed Road, Kelawade, Maharashtra 412205<br> <br>Pune-Bangalore Highway<br> kelawade, Pune-412213, Maharashtra, India
+
+                                    </span>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <ul class="social-nav model-3d-0 footer-social w3_agile_social two contact">
+
+                                <li><a href="https://www.facebook.com/pooja.konde.311" class="facebook">
+                                        <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                        <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                                <li><a href="https://twitter.com/konde_pooja?s=09" class="twitter"> 
+                                        <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                        <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                                <li><a href="#" class="instagram">                                       <div class="front"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                                        <div class="back"><i class="fa fa-google-plus" aria-hidden="true"></i></div></a></li>
+                                <li><a href="https://www.linkedin.com/in/pooja-konde-798949189" class="pinterest">
+                                        <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                                        <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 contact-form">
+                            <h4 class="white-w3ls">Contact <span></span></h4>
+                            <form action="ContactUS" method="post">
+                                <div class="styled-input agile-styled-input-top">
+                                    <input type="text" name="name" required="">
+                                    <label>Name</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="email" name="email" required=""> 
+                                    <label>Email</label>
+                                    <span></span>
+                                </div> 
+                                <div class="styled-input">
+                                    <input type="text" name="subject" required="">
+                                    <label>Subject</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <textarea name="message" required=""></textarea>
+                                    <label>Message</label>
+                                    <span></span>
+                                </div>	 
+                                <input type="submit" value="SEND" style="width:100%;">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <div class="footer" id="MoreInfo" >
+        <div class="about_rbtechs" style="margin-left: 2%">
+            <br>
+            <div class="col-lg-3" >
+                <h3><span  style="color:#ecbf11"> <b>MORE INFORMATION</b> </span></h3> <br>
+                <div class="a">
+                    <span  style="color:white;height:auto" id="content"> 
+                      Father Name: Popat Konde<br>
+                      Mother Name: Kamal Konde<br>
+                      Blood Group: B+<br>
+                      Birth Date: 30Th March 1998<br>
+                      Birth Place: Kelawade<br>
+                    </span></div> <br>
+            </div>
+            <div class="col-lg-3">
+                <h3><span style="color:#ecbf11"> <b>Hobbies</b> </span></h3> <br>
+                <div class="a">
+                    <span  style="color:white;height:auto" id="content"> Play Chess<br>
+                        Writing Poems<br>
+                        Teaching<br>
+                         Listening Music<br>
+                    </span><br>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h3><span style="color:#ecbf11"> <b>Certificates</b> </span></h3> <br>
+                <div class="a">
+                    <span  style="color:white;height:auto" id="content">
+                        Participate in DCB Hackathon,2017<br>
+                        Event Co-Ordinator of National level Presentation<br>
+                        Winner of Logo Competition<br>
+                        Winner of Chess Competition<br>
+                        </span>
+                </div><br>
+            </div> 
+            <div class="col-lg-3">
+                <h3><span style="color:#ecbf11"> <b>Languages Known</b> </span></h3> <br>
+                <div class="a">
+                    <span  style="color:white;height:auto" id="content">
+                    English<br>
+                    Hindi<br>
+                    Marathi<br>
+                    </span><br>
+                </div><br>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <p style="color: #000000; background: #dab31b"> &nbsp;   
+                  </p> 
+    </div>    
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>   
+    <script src="js/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#datepicker,#datepicker1,#datepicker2,#datepicker3").datepicker();
+        });
+    </script>    
+    <link rel="stylesheet" href="css/swipebox.css">
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+        jQuery(function($) {
+            $(".swipebox").swipebox();
+        });
+    </script>    
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>   
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>    
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function() {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function() {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function() {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("snackbar")
+            x.className = "show";
+            setTimeout(function() {
+                x.className = x.className.replace("show", "");
+            }, 5000);
+        }
+    </script>
+    <script>
+        var check = function() {
+            if (document.getElementById('password').value ==
+                    document.getElementById('confirm_password').value) {
+                document.getElementById('message').style.color = 'green';
+                document.getElementById('message').innerHTML = 'matching';
+            } else {
+                document.getElementById('message').style.color = 'red';
+                document.getElementById('message').innerHTML = 'not matching';
+            }
+        }
+    </script>
+
+    <script src="js/main.js"></script>	   
+    <script src="js/easy-responsive-tabs.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion           
+                width: 'auto', //auto or any width like 600px
+                fit: true, // 100% fit in a container
+                closed: 'accordion', // Start closed if in accordion view
+                activate: function(event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+            $('#verticalTab').easyResponsiveTabs({
+                type: 'vertical',
+                width: 'auto',
+                fit: true
+            });
+        });
+    </script>    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+             var defaults = {
+             containerID: 'toTop', // fading element id
+             containerHoverID: 'toTopHover', // fading element hover id
+             scrollSpeed: 1200,
+             easingType: 'linear' 
+             };
+             */
+            $().UItoTop({easingType: 'easeOutQuart'});
+        });
+    </script>
+
+    <div class="arr-w3ls">
+        <a href="#home" id="toTop" style="display: block; background: url(images/arr.png)"> 
+            <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+    <!-- //smooth scrolling -->
+    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+</body>
+</html>
