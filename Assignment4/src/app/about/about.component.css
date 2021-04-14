@@ -1,0 +1,22 @@
+
+#pooja{
+    
+    width: 300px;
+    height: 300px;
+}
+#aboutdiv{
+    text-transform: capitalize;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 2em;
+    font-family: FrankRuehl;
+    font-size: 22px;
+    color: #0f2453;
+}
+
+.img_logo{
+    margin-left: 30%;
+width: 300px;
+height: 300px;
+border: 1px solid black;
+}

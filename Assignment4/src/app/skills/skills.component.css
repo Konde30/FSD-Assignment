@@ -1,0 +1,77 @@
+#skilllsdiv{
+    background-color: #fff;
+    
+}
+.container1{
+    width: 60%;
+    height: 65%;
+    margin-left: 15%;
+}
+
+img{
+    width: 100px;
+    margin-left: 35px;
+    
+    
+}
+h1{
+    text-align: center;
+    
+    color:rgb(243, 28, 28);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row{
+    margin-top: 10%;
+}
+.col-lg-2{
+    height: 500px;
+
+}
+  .price-gd-bottom {
+    padding: 1.3em 0em 1em;
+}
+.price-gd-bottom{
+    margin-top: 56%;
+    width: 75%;
+    height: 10%;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #ffce14;
+    border: 2px solid #ffce14;
+}
+
+.price-gd-top h4{
+    font-size: 1.5em;
+    color: #fff;
+    width: 90%;
+    height: 15%;
+    text-align: center;
+    background: #0f2453;
+    font-weight: 300;
+    position: absolute;
+    top: 9.6em;
+    right: 0em;
+}
+
+    .col-lg-2:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.1);
+        transition: 1s ease;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.footer{
+    display: block;
+    overflow: auto;
+
+    font-size: 20px;
+    background-color: #0f2453;
+    padding: 2px;
+}
+.a:hover
+{
+    
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.col-lg-3{
+ 
+   padding-top: 0.5%;
+   padding-left: 4%;
+    
+}
+.row{
+    width: 100%;
+}
+#footerdiv{
+
+     background-color: #dab31b;
+     height: 5%;
+     width: 100%;
+}
+
+
+
+
+

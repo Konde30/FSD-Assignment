@@ -1,0 +1,67 @@
+.header{
+    height: fit-content;
+    background-color: #dab31b;
+}
+#div2.li{
+    list-style: none;
+    display: inline-block;   
+}
+#div2 ul li{
+    list-style: none;
+    display: inline;
+    padding: 13px 20px;
+    color: #101010;
+    font-size:20px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+ul.social-icons3 {
+    display: block;
+    padding: 0;
+    margin-top: .55em;
+}
+.social-icons3 li{
+    display:inline-block;
+}
+.social-icons3 li a{  
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+    margin-right: 1em;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    line-height: 30px;
+    color:#fff;
+    text-align:center;
+}
+.social-icons3 li a.fa.fa-facebook.icon-border.facebook{
+    background:#4D669C;
+}
+.social-icons3 li a.fa.fa-twitter.icon-border.twitter{
+    background:#1da1f2;
+}
+.social-icons3 li a.fa.fa-google-plus.icon-border.googleplus{
+    background:#d34836;
+}
+.social-icons3 li a.fa.fa-linked.icon-border.linked{
+    background:#ee802f;
+}
+
+.social-icons3 li a:hover{
+    text-decoration:none;
+    opacity:0.8;
+}
